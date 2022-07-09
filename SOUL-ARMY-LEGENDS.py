@@ -119,7 +119,7 @@ def jalan(z):
 def Public():
 	clear()
 	print(logo)
-	print  (' [01] LOG IN WITH TOKEN\n [02] LOG IN WITH COOKIE)
+	print(' [01] LOG IN WITH TOKEN\n [02] LOG IN WITH COOKIE')
 	pil=input('\n [#] Select One : ')
 	if pil in ['1','01']:
 		panda = input(' [+] Token : ')
